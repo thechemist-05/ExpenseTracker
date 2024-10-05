@@ -1,30 +1,23 @@
-Personal Expense Tracker
+# Personal Expense Tracker
 
-Overview
-The Personal Expense Tracker is a console-based application designed to help users manage their personal finances by tracking their expenses. Users can easily add, edit, delete, and view expenses, as well as generate monthly summary reports. This project demonstrates fundamental programming skills in C and emphasizes file handling for data persistence.
+## Overview
+The Personal Expense Tracker is a console-based application designed to help users manage their personal finances by tracking their expenses. Users can easily add, edit, delete, and view expenses, as well as generate monthly summary reports.
 
-Features
-Add Expense: Input and save new expenses with details such as amount, category, description, and date.
-View Expenses: Display all recorded expenses in a structured format.
-Edit Expense: Modify existing expense records.
-Delete Expense: Remove unwanted expenses from the tracker.
-Generate Monthly Report: Calculate and display total expenses categorized by type.
-Data Persistence: Save expenses to a text file and load them upon startup.
+## Features
+- Add Expense
+- View Expenses
+- Edit Expense
+- Delete Expense
+- Generate Monthly Report
+- Data Persistence
 
-Technologies Used
-Programming Language: C
-File Handling: Standard I/O library for reading and writing files
-Getting Started
+## Technologies Used
+- C programming language
+- Standard I/O for file handling
 
-Prerequisites
-A C compiler (like GCC) installed on your machine.
-Basic knowledge of C programming and command-line operations.
+## Getting Started
+1. Compile the program using `gcc main.c -o ExpenseTracker`.
+2. Run the program with `./ExpenseTracker`.
 
-Installation
-1)Clone the Repository:
-git clone https://github.com/thechemist-05/ExpenseTracker.git
-2)Navigate to the Project Directory:
-cd ExpenseTracker/src
-3)Compile the Program:
-
-
+## Acknowledgments
+- Inspired by the need for better personal finance management.
