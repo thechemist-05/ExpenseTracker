@@ -1,0 +1,7 @@
+ExpenseTracker/
+├── src/                # Source code files
+│   ├── main.c          # Main program file
+│   └── expense_tracker.h # Header file
+├── data/               # Data files for storing expenses
+│   └── expenses.txt     # Example data file
+└── README.md           # Project documentation
